@@ -1,0 +1,24 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+   
+using namespace std;
+int main ()
+{
+double A=0, B=0, C=0, pi=3.14159, x1=0, x2=0, x3=0, x4=0, x5=0;
+cin >> A;
+cin >> B;
+cin >> C;
+x1 = (A*C)/2;
+x2 = pi * pow(C,2);
+x3 = ((A+B)*C)/2;
+x4 = (B*B);
+x5 = (A*B);
+cout << fixed << setprecision (3);
+cout << "TRIANGULO: " << x1 <<endl;
+cout << "CIRCULO: " << x2 <<endl;
+cout << "TRAPEZIO: " << x3 <<endl;
+cout << "QUADRADO: " << x4 <<endl;
+cout << "RETANGULO: " << x5 <<endl;
+return 0;
+}
